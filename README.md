@@ -46,6 +46,6 @@ Follow these steps to set up, build, and run the application:
    - In the main.cpp make sure you choose the correct .txt file.
    - Make sure the desired time variable matches the one that the data was built upon.
    - Run the application and a .kml file will be generated in '../Output'.
-   Import this .kml file into Google Earth and you will se the optimized route.
+   - Import this .kml file into Google Earth and you will se the optimized route.
    
    
