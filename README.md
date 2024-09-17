@@ -26,4 +26,13 @@ This project requires the following libraries:
        ```cpp
        #include <nlohmann/json.hpp>
        ```
+## How to Run the Application
+
+Follow these steps to set up, build, and run the application:
+
+### 1. **Clone the Repository**
+   First, clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
 
