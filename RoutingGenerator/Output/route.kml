@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Route</name>
+    <!-- Define a style for the line and pins -->
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>ff0000ff</color> <!-- Blue line -->
+        <width>4</width> <!-- Thicker line -->
+      </LineStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <scale>1.1</scale> <!-- Slightly larger pins -->
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale> <!-- Slightly larger labels -->
+      </LabelStyle>
+    </Style>
+    <Placemark>
+      <name>Route Line</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <LineString>
+        <coordinates>
+          25.584412,45.638217,1000
+          25.583531,45.639127,1000
+          25.584659,45.639445,1000
+          25.585123,45.639593,1000
+          25.584909,45.639839,1000
+          25.586095,45.639532,1000
+          25.585880,45.639506,1000
+          25.585880,45.640661,1000
+          25.585638,45.641274,1000
+          25.587570,45.641053,1000
+          25.587839,45.640786,1000
+          25.588345,45.641067,1000
+          25.589070,45.641540,1000
+          25.588939,45.642297,1000
+          25.588319,45.642318,1000
+          25.588054,45.641877,1000
+          25.587532,45.641479,1000
+          25.587387,45.642542,1000
+          25.586957,45.642550,1000
+          25.586471,45.642861,1000
+          25.587459,45.643223,1000
+          25.587765,45.643866,1000
+          25.589630,45.643052,1000
+          25.590375,45.643165,1000
+          25.591374,45.643251,1000
+          25.591784,45.644496,1000
+          25.591588,45.644260,1000
+          25.591404,45.645122,1000
+          25.592141,45.645995,1000
+          25.591469,45.646063,1000
+          25.592140,45.646134,1000
+          25.593295,45.645990,1000
+          25.593807,45.645922,1000
+          25.594668,45.645355,1000
+          25.594653,45.645257,1000
+          25.593926,45.644972,1000
+          25.593788,45.645004,1000
+          25.593439,45.645072,1000
+          25.596202,45.645336,1000
+          25.596641,45.646003,1000
+          25.597750,45.645845,1000
+          25.598567,45.645763,1000
+          25.599049,45.645840,1000
+          25.599320,45.645890,1000
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Point 1</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.584412,45.638217,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 2</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.583531,45.639127,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 3</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.584659,45.639445,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 4</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.585123,45.639593,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 5</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.584909,45.639839,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 6</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.586095,45.639532,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 7</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.585880,45.639506,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 8</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.585880,45.640661,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 9</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.585638,45.641274,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 10</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.587570,45.641053,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 11</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.587839,45.640786,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 12</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.588345,45.641067,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 13</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.589070,45.641540,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 14</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.588939,45.642297,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 15</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.588319,45.642318,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 16</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.588054,45.641877,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 17</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.587532,45.641479,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 18</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.587387,45.642542,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 19</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.586957,45.642550,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 20</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.586471,45.642861,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 21</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.587459,45.643223,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 22</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.587765,45.643866,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 23</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.589630,45.643052,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 24</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.590375,45.643165,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 25</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.591374,45.643251,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 26</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.591784,45.644496,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 27</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.591588,45.644260,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 28</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.591404,45.645122,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 29</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.592141,45.645995,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 30</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.591469,45.646063,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 31</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.592140,45.646134,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 32</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.593295,45.645990,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 33</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.593807,45.645922,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 34</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.594668,45.645355,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 35</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.594653,45.645257,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 36</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.593926,45.644972,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 37</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.593788,45.645004,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 38</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.593439,45.645072,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 39</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.596202,45.645336,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 40</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.596641,45.646003,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 41</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.597750,45.645845,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 42</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.598567,45.645763,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 43</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.599049,45.645840,1000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Point 44</name>
+      <styleUrl>#lineStyle</styleUrl>
+      <Point>
+        <coordinates>25.599320,45.645890,1000</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

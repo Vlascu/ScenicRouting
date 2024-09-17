@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{91c96f8e-e0a2-4162-a4a3-2f0c9db81685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{970af288-c8fe-4c6b-a6c1-5241111d488d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RouteBuilder">
+      <UniqueIdentifier>{931c8b49-d841-497e-abf1-3275df74550b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RouteBuilder">
+      <UniqueIdentifier>{e27e782f-1520-4291-893e-dac651ceab89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OptimizationAlgorithms">
+      <UniqueIdentifier>{80a39cf4-ea47-4540-8569-5c649388aab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OptimizationAlgorithms">
+      <UniqueIdentifier>{e3341efd-a743-4194-99e9-8590cb9faccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{bb5a3317-ba28-4df1-85a3-c8eaa6664d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{d926f4db-ff3e-4e30-80ec-fa6240443da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OptimizationAlgorithms\AC">
+      <UniqueIdentifier>{1a5c48c2-94e6-4822-88e4-6b386381e866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OptimizationAlgorithms\GA">
+      <UniqueIdentifier>{6835dfeb-514f-46b2-8838-4c5b10f6bb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OptimizationAlgorithms\General">
+      <UniqueIdentifier>{bc6c6248-8120-40b9-b070-09b43bdce8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OptimizationAlgorithms\Utils">
+      <UniqueIdentifier>{83475b83-be9d-41dc-831d-6a5860a37352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OptimizationAlgorithms\AC">
+      <UniqueIdentifier>{d04ac822-2d9a-4430-843f-65b381d04e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OptimizationAlgorithms\GA">
+      <UniqueIdentifier>{989fb4ee-7c6c-4616-8399-a3088919b84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OptimizationAlgorithms\General">
+      <UniqueIdentifier>{88439fc7-c06a-416f-8c7a-b70442bc8ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OptimizationAlgorithms\Utils">
+      <UniqueIdentifier>{f0b726fb-c139-4f37-abcf-92443e4ba23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{4fbeb199-f02c-4409-8361-c8f0557993dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputFiles">
+      <UniqueIdentifier>{4e3b73ea-9f8f-4804-a4ad-69a5057021d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RouteBuilder.h">
+      <Filter>Header Files\RouteBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="IRouteBuilder.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Aliases.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimizationResult.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IPOI.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="OSMPoi.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ACOptimizer.h">
+      <Filter>Header Files\OptimizationAlgorithms\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="Ant.h">
+      <Filter>Header Files\OptimizationAlgorithms\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="Chromosome.h">
+      <Filter>Header Files\OptimizationAlgorithms\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="GAGOptimizer.h">
+      <Filter>Header Files\OptimizationAlgorithms\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="GAOptimizer.h">
+      <Filter>Header Files\OptimizationAlgorithms\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="GATSOptimizer.h">
+      <Filter>Header Files\OptimizationAlgorithms\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="IOptimizer.h">
+      <Filter>Header Files\OptimizationAlgorithms\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Header Files\OptimizationAlgorithms\General</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimizerFactory.h">
+      <Filter>Header Files\OptimizationAlgorithms\General</Filter>
+    </ClInclude>
+    <ClInclude Include="FitnessCalculator.h">
+      <Filter>Header Files\OptimizationAlgorithms\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EOptimizationAlgorithms.h">
+      <Filter>Header Files\OptimizationAlgorithms\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OSMInputData.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="IDataLoader.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDataLoader.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RouteBuilder.cpp">
+      <Filter>Source Files\RouteBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizationResult.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ACOptimizer.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="Chromosome.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="GAGOptimizer.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="GAOptimizer.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="GATSOptimizer.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizerFactory.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="FitnessCalculator.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="OSMInputData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="OSMPoi.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Ant.cpp">
+      <Filter>Source Files\OptimizationAlgorithms\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDataLoader.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Output\brasov_saguna_sforii_20.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="..\Output\brasov_saguna_consiliu_50.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+    <Text Include="..\Output\barcelona_turo-parc_parc-diagonal_300.txt">
+      <Filter>InputFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
