@@ -38,14 +38,14 @@ Follow these steps to set up, build, and run the application:
    ```
 
 ### 2. **Run the DataBuilder project**
-   In the main.cpp you will need to choose the starting point coordinates, end point coordinates and a desired walk time.
-   Choose the naming of the .txt file that will be generated.
-   Run the application and a .txt file will be generated in '../Output', this is will be the data for the optimization algorithm.
+   - In the main.cpp you will need to choose the starting point coordinates, end point coordinates and a desired walk time.
+   - Choose the naming of the .txt file that will be generated.
+   - Run the application and a .txt file will be generated in '../Output', this is will be the data for the optimization algorithm.
 
 ### 3. **Run the RoutingGenerator project**
-   In the main.cpp make sure you choose the correct .txt file.
-   Make sure the desired time variable matches the one that the data was built upon.
-   Run the application and a .kml file will be generated in '../Output'.
+   - In the main.cpp make sure you choose the correct .txt file.
+   - Make sure the desired time variable matches the one that the data was built upon.
+   - Run the application and a .kml file will be generated in '../Output'.
    Import this .kml file into Google Earth and you will se the optimized route.
    
    
